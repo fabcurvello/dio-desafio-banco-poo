@@ -14,7 +14,7 @@ public class ContaCorrente extends Conta {
     }
 
     public void imprimirExtrato() {
-        System.out.println("=== CONTA CORRENTE ===");
+        System.out.println("\n=== CONTA CORRENTE ===");
         super.imprimirDadosComuns();
         System.out.printf("Limite: R$ %.2f \n", this.limite);
     }

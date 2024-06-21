@@ -6,7 +6,7 @@ public class ContaPoupanca extends Conta{
     }
 
     public void imprimirExtrato() {
-        System.out.println("=== CONTA POUPANÇA ===");
+        System.out.println("\n=== CONTA POUPANÇA ===");
         super.imprimirDadosComuns();
     }
 }
